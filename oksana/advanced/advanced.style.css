@@ -24,6 +24,30 @@ body {
     text-decoration: none;
 }
 
+.navigation a:hover {
+    background-color: palegreen;
+    color: green;
+}
+
 .head4 {
     text-shadow: 2px 0px 2px red;
 }
+
+.hero {
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+}
+
+footer {
+    display: block;
+    overflow: hidden;
+    background-color: rgb(80, 219, 80);
+    text-align: center;
+    color: white;
+}
+
+
+/*box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;*/
