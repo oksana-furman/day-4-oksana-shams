@@ -4,6 +4,8 @@ body {
 
 #logo {
     width: 90px;
+    position: relative;
+    top: 3px;
 }
 
 .navigation {
@@ -13,9 +15,15 @@ body {
 }
 
 .navigation a {
-    font-size: 20px;
+    position: relative;
+    top: -35px;
+    font-size: 25px;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.head4 {
+    text-shadow: 2px 0px 2px red;
 }
