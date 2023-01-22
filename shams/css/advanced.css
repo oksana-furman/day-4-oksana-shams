@@ -1,27 +1,27 @@
-
-
-#pic{
-    width: 15px;
-}
-
-nav{
-   
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    background-color: rgb(39, 168, 116);
-    z-index: -1;
-}
-
-.navigation a {
-    text-decoration: none;
-    font-size: 30px;
+    background-color: rgb(120, 165, 224);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(8, 6, 6);
     text-align: center;
-    padding: 20px;
-    color: black;
-    margin: 0px;
-    position: relative;
-    top: -50px;
-
-}
-.navigation a:hover{
-    background-color: coral;
-}
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(77, 164, 137);
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
