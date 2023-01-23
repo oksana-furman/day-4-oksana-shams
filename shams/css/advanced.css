@@ -4,24 +4,52 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(120, 165, 224);
+ 
+    
   }
+
   
   li {
     float: left;
   }
   
-  li a {
+  /*li a {
     display: block;
     color: rgb(8, 6, 6);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 12px;
+    
   }
-  
+  */
+  /*li a{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #913b21;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+    width: 12px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1px;
+    float: left;
+    text-decoration: none;
+  }
+*/
   li a:hover:not(.active) {
-    background-color: rgb(77, 164, 137);
+
+  background-color: rgb(77, 164, 137);
+    
   }
   
   .active {
     background-color: #04AA6D;
   }
+  li a{
+
+  }
+ 
